@@ -12,8 +12,8 @@
 temperature = int(input("Enter the temperature outside to check the condition: "))
 
 if temperature  >= 0 and temperature <= 30: 
-  print("the temperature is good today") 
-  print("can go outside!")
-elif temperature >= 31 or temperature >=40:
-    print("The temperature is high")
-    print("Please bring umbrella or any protection")
+  print("The temperature is good today") 
+  print("You may go outside!")
+elif temperature >= 31 or temperature >= 40:
+    print("The temperature is bad today")
+    print("Please bring an umbrella or any protection")
